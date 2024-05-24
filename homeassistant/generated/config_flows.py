@@ -164,6 +164,7 @@ FLOWS = {
         "ezviz",
         "faa_delays",
         "fastdotcom",
+        "feedreader",
         "fibaro",
         "file",
         "filesize",
