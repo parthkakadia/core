@@ -1,6 +1,10 @@
 """Constants for RSS/Atom feeds."""
 
-DOMAIN = "feedreader"
+from typing import Final
 
-CONF_MAX_ENTRIES = "max_entries"
-DEFAULT_MAX_ENTRIES = 20
+DOMAIN: Final[str] = "feedreader"
+
+CONF_MAX_ENTRIES: Final[str] = "max_entries"
+DEFAULT_MAX_ENTRIES: Final[int] = 20
+
+EVENT_FEEDREADER: Final[str] = "feedreader"
